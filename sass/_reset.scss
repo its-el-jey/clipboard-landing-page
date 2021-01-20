@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  /* 1rem = 10px */
+  font-size: 65%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  /* Only one font used */
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

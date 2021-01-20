@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap');
+
+:root {
+  --StrongCyan: hsl(171, 66%, 44%);
+  --DarkStrongCyan: #209F8B;
+  --ShadowCyan: rgba(137, 229, 199, 0.5033);
+  --LightBlue: hsl(233, 100%, 69%);
+  --DarkLightBlue: #5262D8;
+  --BlackShadow: rgba(0, 0, 0, 0.0988);
+  --DarkGrayishBlue: hsl(210, 10%, 33%);
+  --GrayishBlue: hsl(201, 11%, 66%);
+  --PureWhite: #fff;
+  --LightGray: #F5F7F7;
+
+  --weight-regular: 400;
+  --weight-semi-bold: 600;
+
+  --transition: 300ms ease-in-out;
+  --border-radius-default: 2.8rem;
+}
