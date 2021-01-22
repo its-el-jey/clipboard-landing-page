@@ -1,0 +1,30 @@
+/* Sponsors section */
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 14rem;
+}
+.sponsor {
+  transition: var(--transition) filter;
+}
+.sponsor:hover {
+  cursor: pointer;
+  filter: brightness(0.5);
+}
+
+@media(max-width: 1199px) {
+  .sponsor:not(:last-child) {
+    margin-bottom: 6.6rem;
+  }
+}
+@media(min-width: 1200px) {
+  .sponsors {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 111rem;
+    margin: 0 auto;
+    margin-bottom: 15rem;
+  }
+}

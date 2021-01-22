@@ -1,0 +1,29 @@
+/* Anywhere section */
+@media (max-width: 768px) {
+  .anywhere {
+    padding: 0 3.2rem;
+    margin-bottom: 13rem;
+  }
+}
+@media (min-width: 768px) {
+  .anywhere {
+    margin-bottom: 16.1rem;
+  }
+}
+
+.anywhere-image {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .anywhere-image-container {
+    margin-top: 6.4rem;
+  }
+}
+@media (min-width: 768px) {
+  .anywhere-image-container {
+    max-width: 81.2rem;
+    margin: 0 auto;
+    margin-top: 11rem;
+  }
+}

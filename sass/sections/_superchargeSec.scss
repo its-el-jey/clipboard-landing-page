@@ -1,0 +1,42 @@
+/* Supercharge section */
+.supercharge {
+  padding: 0 3.2rem;
+}
+@media (max-width: 768px) {
+  .supercharge {
+    margin-bottom: 13rem;
+  }
+}
+@media (min-width: 768px) {
+  .supercharge {
+    margin-bottom: 15rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .work-flow-items {
+    margin-top: 9rem;
+  }
+  .work-flow-item:not(:last-child) {
+    margin-bottom: 5.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-flow-items {
+    display: flex;
+    flex-direction: row;
+    max-width: 111rem;
+    margin: 0 auto;
+    margin-top: 7.2rem;
+  }
+  .work-flow-item {
+    max-width: 35rem;
+  }
+  .work-flow-item:not(:last-child) {
+    margin-right: 3rem;
+  }
+}
+.work-flow-item__icon {
+  margin-bottom: 4rem;
+}

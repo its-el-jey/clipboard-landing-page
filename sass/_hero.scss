@@ -1,0 +1,45 @@
+/* Main */
+.main {
+  text-align: center;
+}
+
+/* Hero section */
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 12.3rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    background-image: url('/images/bg-header-mobile.png');
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 13.1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-image: url('/images/bg-header-desktop.png');
+  }
+  .t-hero-slogan {
+    max-width: 730px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-logo {
+    margin-bottom: 6.4rem;
+  }
+}
+@media (min-width: 768px) {
+  .site-logo {
+    margin-bottom: 5.6rem;
+  }
+}
+
+.download-buttons {
+  margin-top: 4.8rem;
+}
